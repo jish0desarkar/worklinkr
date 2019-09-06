@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>worklinkr-neuroscience games</title>
+	<link rel = "icon" type = "image/png" href = "w_l.png">
+	<title>worklinkr-neuroscience games </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
 	<div class="header">
-		<a href="#home"id="header-title"><img src="w_l.png" height="45px" width="45px" alt="WL">&nbsp;WorkLinkr</a>
-		<div id="menu">
-			<a href="#home" class="active">Home</a>
-			<a href="#about">About Us</a>
-			<a href="#contact">Contact Us</a>
-			<a href="#login">Login</a>
-			<a href="#price">Pricing</a>
+		<a href="#home" class = "animated flipInX" id="header-title"><img src="w_l.png" height="60px" width="60px" alt="WL">&nbsp;WorkLinkr</a>
+		<div class = "nav-menu" id="menu">
+			<a href="#home" class="active animated fadeInDown delay">Home</a>
+			<a href="#about" class="animated fadeInDown delay">About Us</a>
+			<a href="contact.html" class="animated fadeInDown delay">Contact Us</a>
+			<a href="login.html" class="animated fadeInDown delay">Login</a>
+			<a href="blog.html" class="animated fadeInDown delay">Blog</a>
 		</div>
  	</div>
 
-	<section id="neuroscience">
-		<div>Neuroscience-based Games
+	<section id="neuroscience" >
+		<div class="animated fadeIn">Neuroscience-based Games
 		</div>
 	</section>
 
-	<section id="aim">
-		<div>
+	<section id="aim" class =  "animated fadeInLeft delay">
+		<div id="aim-div">
 		<!--<img src="AIM1.jpg" style="float:right; height: 65px; width: 150px; margin-right: 100px;">-->
 			<b>Aim : </b><br>
-			Providing a path breaking solution to find talents with superiority skills.
+			<p> a path breaking solution to find talents with superiority skills. </p>
+			<img src="AIM1.jpg" id="aim-img" height="100px" width="200px">
 			
 		</div>
 	</section>
 
-	<section id="product">
-		<div>
+	<section id="product" class = "animated fadeInRight delay">
+		<div id="product-div">
+			<img id = "product-img"src="our product2.png" alt="product image" height="100px" width="200px">
 			<b>Product :</b> <br>
-			Worklinkr is a neuroscience-based gaming software for assessing candidates.<br>
+			<p> Worklinkr is a neuroscience-based gaming software for assessing candidates.</p><br>
+			
 		</div>
 	</section>
 
-	<section id="us">
-		<div>
-			<b>Why Us : </b><br>
-			We strive to achieve bias-free analysis of candidates and prove their holistic excellence and capability.
+	<section id="us"  class="animated fadeInLeft delay">
+		<div id="us-div">
+				<b>Why us: </b> <br>
+				<p> We strive to achieve bias-free analysis of candidates and prove their  excellence and capability.</p>
+				
+					<img id = "us-img"src="WHY US2.jpg" alt="product image" height="150px" width="300px">
+				
+			
+			
+
 		</div>
 	</section>
 
-	<section id="modules">
+	<div id="modules">
 		
-		-- Footer --
-			<!--<img class="theories" src="theories.png">
-			<span id="theory-text">Neuroscience based psychology<br>theories and proven research</span>
-
-		<span id="games">
-			
-		</span>
-
-		<span id="Ai" style="float: right;">
-			
-		</span>-->
-	</section>
+		<p id="footer-text">© Copyright 2019 </p>
+		<img src="w_l.png" alt="logo" id="footer-logo">
+	</div>
 
 <script>
 function myFunction() {
@@ -73,5 +76,8 @@ function myFunction() {
   }
 }
 </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 {
-  "name": "dist",
+  "name": "web-pages",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "author": "",
   "license": "ISC",
